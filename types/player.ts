@@ -1,0 +1,21 @@
+export type PlayerAttributes = {
+  name: string;
+  age: number;
+  position: string;
+  physique: string;
+  ethnicity: string;
+  hairstyle: string;
+  eyeColor: string;
+  dominantHand: string;
+  personality: string;
+  uniformStyle: string;
+  primaryColor: string;
+  secondaryColor: string;
+  accessories: string[];
+  backgroundStory: string;
+  environment: string;
+  teamName: string;
+  lighting: string;
+  realismLevel: "hyperreal" | "stylized" | "anime" | "cinematic";
+  powerRating: number;
+};
